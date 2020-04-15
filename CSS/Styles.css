@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.nameTitle {
+    margin-top: 100px auto 0 auto;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3.625rem;
+}
+
+.Desigination {
+    font-weight: normal;
+}
+
+.skills-heading {
+    margin: 100px auto 100px auto;
+}
+
+.first-skill-row {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.second-skill-row {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+}
+
+.topContainer {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.profile {
+    margin: 50px;
+}
+
+.profile-description {
+    color: #40514E;
+    width: 50%;
+    margin: 50px auto 80px auto;
+    line-height: 2;
+}
+
+hr {
+    width: 5%;
+    border-style: dotted none none none;
+    border-width: 7px;
+    border-color: rgb(170, 179, 179);
+}
+
+.ProfilePic {
+    width: 150px;
+    height: 150px;
+}
+
+.contact-icon {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.get-in-touch {
+    margin: 100px auto 35px auto;
+}
+
+.contact-info {
+    margin: 40px auto 30px auto;
+}
+
+.contact-description {
+    width: 40%;
+    margin: 10px auto 50px auto;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #00a8cc;
+    border: none;
+    color: rgb(234, 238, 241);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px auto 100px auto;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .bottom-container {
+      background-color: #4cbbb9;
+      padding: 40px 0 5px 0;
+  }
+
+  .copyrights {
+      color: #EAF6F6;
+      font-weight: bold;
+  }
